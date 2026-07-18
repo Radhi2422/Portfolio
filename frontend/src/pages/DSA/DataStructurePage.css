@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f6fff7;
+}
+
+.dsa-page{
+    padding:50px 8%;
+    min-height:100vh;
+    background:#f6fff7;
+}
+
+.hero-section{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.hero-section h1{
+    font-size:48px;
+    color:#0b6b3a;
+    margin-bottom:15px;
+}
+
+.hero-section p{
+    color:#666;
+    font-size:18px;
+    max-width:800px;
+    margin:auto;
+    line-height:30px;
+}
+
+.topics-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:25px;
+}
+
+.topic-card{
+    background:#fff;
+    border-radius:16px;
+    padding:30px;
+    cursor:pointer;
+    transition:.3s;
+    border:1px solid #d7f3df;
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+}
+
+.topic-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(11,107,58,.15);
+    border-color:#22c55e;
+}
+
+.topic-icon{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.topic-card h3{
+    color:#0b6b3a;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+.topic-card p{
+    color:#777;
+    font-size:15px;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5fff8;
+}
+
+.dashboard{
+
+    min-height:100vh;
+
+    padding:60px;
+
+    background:#f5fff8;
+
+}
+
+.hero{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+
+    color:#116530;
+
+    margin-bottom:15px;
+
+}
+
+.hero h2{
+
+    color:#3b7d50;
+
+    margin-bottom:20px;
+
+    font-weight:500;
+
+}
+
+.hero p{
+
+    color:#666;
+
+    font-size:18px;
+
+    max-width:850px;
+
+    margin:auto;
+
+    line-height:32px;
+
+}
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.skill-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:0 12px 30px rgba(17,101,48,.08);
+
+    border-left:6px solid #2e8b57;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 40px rgba(17,101,48,.15);
+
+}
+
+.skill-card h2{
+
+    color:#116530;
+
+    margin-bottom:18px;
+
+    font-size:28px;
+
+}
+
+.skill-card p{
+
+    color:#666;
+
+    line-height:28px;
+
+    font-size:16px;
+
+}
