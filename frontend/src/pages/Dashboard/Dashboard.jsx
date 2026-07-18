@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 import "./Dashboard.css";
 
 import { Navigate } from "react-router-dom";
