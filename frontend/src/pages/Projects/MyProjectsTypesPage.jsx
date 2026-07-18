@@ -2,6 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./MyProjectsTypesPage.css";
 
+// React integration0
+import { useDispatch } from "react-redux";
+import { setSelectedProject } from "../../redux/project/projectSlice";
+
 const projectCategories = [
   {
     title: ".NET / C#",
@@ -35,11 +39,27 @@ const projectCategories = [
     route: "/projects/java",
     color: "#EA580C",
   },
+  {
+    title: "Javascript",
+    icon: "🟨",
+    description:
+      "ES6+, DOM, Node.js, Express.js, asynchronous programming, and full-stack JavaScript projects.",
+    route: "/projects/javascript",
+    color: "#F7DF1E",
+  },
+  {
+    title: "Docker",
+    icon: "🐳",
+    description:
+      "Docker containers, images, Docker Compose, container orchestration, CI/CD pipelines, and deployment automation projects.",
+    route: "/projects/docker",
+    color: "#2496ED",
+  },
 ];
 
 const MyProjectsTypesPage = () => {
   const navigate = useNavigate();
-
+  const dispatch = useDispatch();
   return (
     <div className="projects-page">
 
@@ -58,7 +78,9 @@ const MyProjectsTypesPage = () => {
           <div
             key={project.title}
             className="project-card"
-            onClick={() => navigate(project.route)}
+            onClick={() => {
+                    dispatch(setSelectedProject(project.route));
+                    navigate(project.route)}}
             style={{
               borderTop: `6px solid ${project.color}`,
             }}
