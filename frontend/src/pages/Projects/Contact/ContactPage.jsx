@@ -1,21 +1,19 @@
 import React, { useState } from "react";
-import { toast } from "react-toastify";
 import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-import axios from "axios";
 import "./ContactPage.css";
 
 export const ContactPage = () => {
-    const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    Subject: "",
-    Message: ""
-  });
+  //   const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   Subject: "",
+  //   Message: ""
+  // });
 
 //     const handleSubmit = async (e) => {
 //       try{
