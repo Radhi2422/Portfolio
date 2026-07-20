@@ -24,7 +24,7 @@ const ProjectPage = () => {
     return <h2 className="text-center mt-5">Loading Projects...</h2>;
 
   if (error)
-    return <h2 className="text-center mt-5">{error}</h2>;
+    return <h2 className="text-center mt-5">Something Went Wrong..</h2>;
 
   if (!project || project.length === 0)
     return <h2 className="text-center mt-5">No Projects Found</h2>;

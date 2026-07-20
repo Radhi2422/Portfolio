@@ -38,7 +38,7 @@ export default function Dashboard() {
 
     <div className="skills-grid">
 
-      <div
+      {/* <div
         className="skill-card"
         onClick={() => navigate("/dsa")}
       >
@@ -48,7 +48,7 @@ export default function Dashboard() {
           LeetCode Solutions, Graphs, Trees, DP, Heaps,
           System Design Questions and Coding Notes.
         </p>
-      </div>
+      </div> */}
 
       <div
         className="skill-card"
@@ -72,20 +72,7 @@ export default function Dashboard() {
         </p>
       </div>
 
-      <div
-        className="skill-card"
-        onClick={() => navigate("/projects")}
-      >
-        <h2>💻 Featured Projects</h2>
-
-        <p>
-          Banking Analytics, GitHub Bot,
-          Kafka Projects, Inventory System,
-          Docker Deployments and more.
-        </p>
-      </div>
-
-      <div
+      {/* <div
         className="skill-card"
         onClick={() => navigate("/blogs")}
       >
@@ -96,7 +83,7 @@ export default function Dashboard() {
           MERN, DSA, System Design
           and Interview Preparation.
         </p>
-      </div>
+      </div> */}
 
       <div
         className="skill-card"

@@ -23,22 +23,22 @@ const projectCategories = [
     route: "/projects/mern",
     color: "#00A86B",
   },
-  {
-    title: "Data Structures & Algorithms",
-    icon: "🧩",
-    description:
-      "Interview questions, algorithm implementations and real-world DSA projects.",
-    route: "/projects/dsa",
-    color: "#16A34A",
-  },
-  {
-    title: "Java",
-    icon: "☕",
-    description:
-      "Core Java, Spring Boot, Multithreading, Collections and backend development projects.",
-    route: "/projects/java",
-    color: "#EA580C",
-  },
+  // {
+  //   title: "Data Structures & Algorithms",
+  //   icon: "🧩",
+  //   description:
+  //     "Interview questions, algorithm implementations and real-world DSA projects.",
+  //   route: "/projects/dsa",
+  //   color: "#16A34A",
+  // },
+  // {
+  //   title: "Java",
+  //   icon: "☕",
+  //   description:
+  //     "Core Java, Spring Boot, Multithreading, Collections and backend development projects.",
+  //   route: "/projects/java",
+  //   color: "#EA580C",
+  // },
   {
     title: "Javascript",
     icon: "🟨",
@@ -54,6 +54,14 @@ const projectCategories = [
       "Docker containers, images, Docker Compose, container orchestration, CI/CD pipelines, and deployment automation projects.",
     route: "/projects/docker",
     color: "#2496ED",
+  },
+  {
+    title: "Github",
+    icon: "💼",
+    description:
+      "Github skills i have learnt as for automation",
+    route: "/projects/github",
+    color: "#512B",
   },
 ];
 

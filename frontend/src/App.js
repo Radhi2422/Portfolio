@@ -5,6 +5,7 @@ import DataStructurepage from "./pages/DSA/DataStructurepage.jsx";
 import MyProjectsTypesPage from "./pages/Projects/MyProjectsTypesPage.jsx";
 import MyExperience from "./pages/Experience/MyExperience.jsx";
 import ProjectPage from "./pages/Projects/ActualProjects/ProjectPage.jsx";
+import { ContactPage } from "./pages/Projects/Contact/ContactPage.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,8 @@ function App() {
         <Route path="/my-experiences" element={<MyExperience/>}/>
         {/* Dynamic Route */}
         <Route path="/projects/:title" element={<ProjectPage />} />
+        {/* Contact Page */}
+        <Route path="/contact" element={<ContactPage/>}/>
     </Routes>
     </BrowserRouter>
 

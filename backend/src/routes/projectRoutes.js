@@ -9,4 +9,6 @@ const projectController =require("../controllers/projectController");
 console.log("Hii")
 router.get("/projects/:title", projectController.getProjectByTitle);
 
+router.post("/contact", projectController.contactmail);
+
 module.exports=router;
