@@ -17,7 +17,7 @@ export const ContactPage = () => {
     Message: ""
   });
 
-    co
+    
 
   return (
     <section className="contact-section">
