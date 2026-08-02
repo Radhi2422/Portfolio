@@ -1,23 +1,45 @@
 import React, { useState } from "react";
-import { toast } from "react-toastify";
 import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-import axios from "axios";
 import "./ContactPage.css";
 
 export const ContactPage = () => {
-    const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    Subject: "",
-    Message: ""
-  });
+  
 
-    
+    const handleSubmit = async (e) => {
+      try{
+        e.preventDefault();
+        const REACT_APP_BASE_URL=process.env.REACT_APP_BASE_URL;
+        const token = localStorage.getItem("token");
+        console.log(formData)
+      
+    const response=await axios.post(
+        `${REACT_APP_BASE_URL}/projects/contact`,
+        formData,
+        {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }}
+      );
+
+    const data = await response.json();
+
+    if (data.success) {
+        alert("Message Sent");
+    }
+    setFormData({
+        name: "",
+        email: "",
+        Address: "",
+        ContactNumber: ""
+      });}catch(err){
+        toast.error("Something went wrong.");
+      }
+};
 
   return (
     <section className="contact-section">
