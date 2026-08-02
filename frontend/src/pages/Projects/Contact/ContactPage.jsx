@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   FaGithub,
   FaLinkedin,
@@ -8,43 +8,13 @@ import {
 import "./ContactPage.css";
 
 export const ContactPage = () => {
-  
 
-    const handleSubmit = async (e) => {
-      try{
-        e.preventDefault();
-        const REACT_APP_BASE_URL=process.env.REACT_APP_BASE_URL;
-        const token = localStorage.getItem("token");
-        console.log(formData)
-      
-    const response=await axios.post(
-        `${REACT_APP_BASE_URL}/projects/contact`,
-        formData,
-        {
-        headers: {
-            Authorization: `Bearer ${token}`
-        }}
-      );
-
-    const data = await response.json();
-
-    if (data.success) {
-        alert("Message Sent");
-    }
-    setFormData({
-        name: "",
-        email: "",
-        Address: "",
-        ContactNumber: ""
-      });}catch(err){
-        toast.error("Something went wrong.");
-      }
-};
+   
 
   return (
     <section className="contact-section">
       <div className="contact-container">
-        {/* Left Side */}
+        
         <div className="contact-info">
           <span className="contact-tag">Get In Touch</span>
 
