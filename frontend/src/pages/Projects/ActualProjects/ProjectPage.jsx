@@ -45,7 +45,7 @@ const ProjectPage = () => {
           <div className="project-card" key={item._id}>
 
             <div className="card-header">
-              <h2>{item.title}</h2>
+              <h2>{item.Heading}</h2>
             </div>
 
 
