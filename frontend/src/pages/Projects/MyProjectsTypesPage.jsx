@@ -23,22 +23,22 @@ const projectCategories = [
     route: "/projects/mern",
     color: "#00A86B",
   },
-  // {
-  //   title: "Data Structures & Algorithms",
-  //   icon: "🧩",
-  //   description:
-  //     "Interview questions, algorithm implementations and real-world DSA projects.",
-  //   route: "/projects/dsa",
-  //   color: "#16A34A",
-  // },
-  // {
-  //   title: "Java",
-  //   icon: "☕",
-  //   description:
-  //     "Core Java, Spring Boot, Multithreading, Collections and backend development projects.",
-  //   route: "/projects/java",
-  //   color: "#EA580C",
-  // },
+  {
+    title: "Data Structures & Algorithms",
+    icon: "🧩",
+    description:
+      "Interview questions, algorithm implementations and real-world DSA projects.",
+    route: "/projects/dsa",
+    color: "#16A34A",
+  },
+ {
+  title: "C++",
+  icon: "⚙️",
+  description:
+    "Core C++, OOP, STL, Data Structures, Algorithms, Multithreading and systems programming projects.",
+  route: "/projects/cpp",
+  color: "#00599C",
+},
   {
     title: "Javascript",
     icon: "🟨",
