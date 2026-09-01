@@ -28,13 +28,14 @@ export default function Dashboard() {
         <h1>Hi, I'm Radhika Mittal 👋</h1>
 
         <h2>
-          Software Developer | MERN | .NET | DSA Enthusiast
+          Developer | Javascript | Data Handling | DSA Enthusiast
         </h2>
 
         <p>
           Passionate about solving real-world problems using Data Structures,
-          Algorithms, Full Stack Development and scalable backend systems.
+          Algorithms, Development and scalable backend systems.
         </p>
+        <p>Implementing: ES6+, Asynchronous JavaScript, Promises, Async/Await, Closures, Event Loop, Callbacks, Higher-Order Functions, Prototypes & Objects, `this` Context, Array Methods, Destructuring, Spread/Rest Operators, Modules, Error Handling, JSON, Fetch API, DOM Manipulation, Event Handling, Debouncing & Throttling</p>
       </div>
 
 
@@ -50,8 +51,6 @@ export default function Dashboard() {
     <div className="skill-group">
       <span className="skill-title">Languages</span>
       <div className="tags">
-        <span>C#</span>
-        <span>Java</span>
         <span>JavaScript</span>
         <span>Python</span>
         <span>SQL</span>
@@ -78,7 +77,7 @@ export default function Dashboard() {
       </div>
     </div>
     {/* ```jsx */}
-<div className="skill-group">
+{/* <div className="skill-group">
   <span className="skill-title">Frontend Engineering</span>
   <div className="tags">
     <span>React</span>
@@ -88,7 +87,7 @@ export default function Dashboard() {
     <span>Angular</span>
     <span>Responsive Design</span>
   </div>
-</div>
+</div> */}
 {/* ``` */}
 
 
@@ -125,23 +124,19 @@ export default function Dashboard() {
     <div className="skill-group">
       <span className="skill-title">Backend & APIs</span>
       <div className="tags">
-        <span>ASP.NET Core</span>
+        {/* <span>ASP.NET Core</span> */}
         <span>Node.js</span>
         <span>Express</span>
         <span>REST APIs</span>
       </div>
     </div>
 
-    <div className="skill-group">
-      <span className="skill-title">Tools & Practices</span>
+    {/* <div className="skill-group">
+      <span className="skill-title">JavaScript</span>
       <div className="tags">
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>Postman</span>
-        <span>Swagger</span>
-        <span>Agile</span>
+      
       </div>
-    </div>
+    </div> */}
 
   </div>
 
