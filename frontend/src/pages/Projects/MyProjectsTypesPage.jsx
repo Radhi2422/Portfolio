@@ -7,15 +7,16 @@ import { useDispatch } from "react-redux";
 import { setSelectedProject } from "../../redux/project/projectSlice";
 
 const projectCategories = [
+  
   {
-    title: ".NET / C#",
-    icon: "💼",
+    title: "Javascript",
+    icon: "🟨",
     description:
-      "Enterprise applications built using C#, ASP.NET Core, MVC, Web API, SQL Server and Azure.",
-    route: "/projects/dotnet",
-    color: "#512BD4",
+      "ES6+, DOM, Node.js, Express.js, asynchronous programming, and full-stack JavaScript projects.",
+    route: "/projects/javascript",
+    color: "#F7DF1E",
   },
-  {
+   {
     title: "MERN Stack",
     icon: "⚛️",
     description:
@@ -30,7 +31,7 @@ const projectCategories = [
       "Interview questions, algorithm implementations and real-world DSA projects.",
     route: "/projects/dsa",
     color: "#16A34A",
-  },
+  }, 
  {
   title: "C++",
   icon: "⚙️",
@@ -39,30 +40,7 @@ const projectCategories = [
   route: "/projects/cpp",
   color: "#00599C",
 },
-  {
-    title: "Javascript",
-    icon: "🟨",
-    description:
-      "ES6+, DOM, Node.js, Express.js, asynchronous programming, and full-stack JavaScript projects.",
-    route: "/projects/javascript",
-    color: "#F7DF1E",
-  },
-  {
-    title: "Docker",
-    icon: "🐳",
-    description:
-      "Docker containers, images, Docker Compose, container orchestration, CI/CD pipelines, and deployment automation projects.",
-    route: "/projects/docker",
-    color: "#2496ED",
-  },
-  {
-    title: "Github",
-    icon: "💼",
-    description:
-      "Github skills i have learnt as for automation",
-    route: "/projects/github",
-    color: "#512B",
-  },
+  
 ];
 
 const MyProjectsTypesPage = () => {
