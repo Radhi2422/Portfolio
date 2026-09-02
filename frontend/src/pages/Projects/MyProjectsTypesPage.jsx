@@ -7,22 +7,36 @@ import { useDispatch } from "react-redux";
 import { setSelectedProject } from "../../redux/project/projectSlice";
 
 const projectCategories = [
-  
+ 
+   {
+    title: "React + Nodejs + MongoDB",
+    icon: "⚛️",
+    description:
+      "Full Stack applications",
+    route: "/projects/mern",
+    color: "#00A86B",
+  },  
+   {
+    title: "Next.js",
+    icon: "▲",
+    description: "Modern Full Stack Applications",
+    route: "/projects/nextjs",
+    color: "#000000"
+  },
   {
+    title: "NestJS",
+    icon: "🐈",
+    description: "Scalable Server-Side Applications",
+    route: "/projects/nestjs",
+    color: "#E0234E"
+  },
+   {
     title: "Javascript",
     icon: "🟨",
     description:
       "ES6+, DOM, Node.js, Express.js, asynchronous programming, and full-stack JavaScript projects.",
     route: "/projects/javascript",
     color: "#F7DF1E",
-  },
-   {
-    title: "MERN Stack",
-    icon: "⚛️",
-    description:
-      "Full Stack applications using MongoDB, Express.js, React.js and Node.js.",
-    route: "/projects/mern",
-    color: "#00A86B",
   },
   {
     title: "Data Structures & Algorithms",
@@ -40,6 +54,10 @@ const projectCategories = [
   route: "/projects/cpp",
   color: "#00599C",
 },
+  // for js what all tech can i add list out like nextjs, nestjs with no details 
+  //JavaScript Node.js Express.js NestJS Next.js React.js React Native Electron.js Socket.IO 
+  //TypeScript Redux Redux Toolkit Zustand Jest Mocha Cypress Playwright Webpack Vite Babel ESLint Prettier npm Yarn 
+  //pnpm GraphQL Apollo Prisma Sequelize Mongoose WebSockets REST APIs JWT OAuth RxJS Bun Deno Serverless AWS Lambda
   
 ];
 
