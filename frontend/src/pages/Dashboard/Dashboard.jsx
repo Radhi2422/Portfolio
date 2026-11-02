@@ -28,14 +28,13 @@ export default function Dashboard() {
         <h1>Hi, I'm Radhika Mittal 👋</h1>
 
         <h2>
-          Developer | Javascript | Data Handling | DSA Enthusiast
+          System Developer | Full Stack Developer | Backend Development
         </h2>
 
         <p>
           Passionate about solving real-world problems using Data Structures,
           Algorithms, Development and scalable backend systems.
         </p>
-        <p>Implementing: ES6+, Asynchronous JavaScript, Promises, Async/Await, Closures, Event Loop, Callbacks, Higher-Order Functions, Prototypes & Objects, `this` Context, Array Methods, Destructuring, Spread/Rest Operators, Modules, Error Handling, JSON, Fetch API, DOM Manipulation, Event Handling, Debouncing & Throttling</p>
       </div>
 
 
@@ -51,13 +50,12 @@ export default function Dashboard() {
     <div className="skill-group">
       <span className="skill-title">Languages</span>
       <div className="tags">
-        <span>JavaScript</span>
+        <span>Java</span>
         <span>Python</span>
-        <span>SQL</span>
       </div>
     </div>
 
-    <div className="skill-group">
+    {/* <div className="skill-group">
       <span className="skill-title">Data Engineering</span>
       <div className="tags">
         <span>ETL</span>
@@ -65,7 +63,7 @@ export default function Dashboard() {
         <span>Spark</span>
         <span>PySpark</span>
       </div>
-    </div>
+    </div> */}
 
     <div className="skill-group">
       <span className="skill-title">Big Data & Streaming</span>
@@ -76,45 +74,39 @@ export default function Dashboard() {
         <span>Real-time Processing</span>
       </div>
     </div>
-    {/* ```jsx */}
-{/* <div className="skill-group">
-  <span className="skill-title">Frontend Engineering</span>
-  <div className="tags">
-    <span>React</span>
-    <span>HTML5</span>
-    <span>CSS3</span>
-    <span>Redux</span>
-    <span>Angular</span>
-    <span>Responsive Design</span>
-  </div>
-</div> */}
-{/* ``` */}
-
-
+    <div className="skill-group">
+      <span className="skill-title">Frontend Development</span>
+      <div className="tags">
+        <span>React.js</span>
+        <span>Javascript</span>
+        <span>Tailwind CSS</span>
+        <span>Redux</span>
+      </div>
+    </div>
     <div className="skill-group">
       <span className="skill-title">Cloud & DevOps</span>
       <div className="tags">
-        <span>Azure</span>
+        <span>AWS</span>
         <span>Docker</span>
         <span>CI/CD</span>
-        <span>Azure DevOps</span>
+        <span>Linux</span>
       </div>
     </div>
 
-    <div className="skill-group">
-      <span className="skill-title">AI / GenAI</span>
+    {/* <div className="skill-group">
+      <span className="skill-title"></span>
       <div className="tags">
         <span>LLMs</span>
         <span>GenAI</span>
         <span>Prompt Engineering</span>
         <span>AI APIs</span>
       </div>
-    </div>
+    </div> */}
 
     <div className="skill-group">
-      <span className="skill-title">Databases</span>
+      <span className="skill-title">DSA</span>
       <div className="tags">
-        <span>SQL Server</span>
+        <span>Dynamic Programming (DP)</span>
         <span>MongoDB</span>
         <span>PostgreSQL</span>
         <span>Redis</span>
@@ -122,12 +114,13 @@ export default function Dashboard() {
     </div>
 
     <div className="skill-group">
-      <span className="skill-title">Backend & APIs</span>
+      <span className="skill-title">Networking</span>
       <div className="tags">
         {/* <span>ASP.NET Core</span> */}
-        <span>Node.js</span>
-        <span>Express</span>
-        <span>REST APIs</span>
+        <span>DNS</span>
+        <span>TCP/IP</span>
+        <span>HTTP</span>
+        <span>Load Balancers</span>
       </div>
     </div>
 

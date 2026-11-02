@@ -52,7 +52,7 @@ export const ContactPage = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/radhika-mittal-18b30a240/"
+              href="https://www.linkedin.com/in/radhika-mittal-profile/"
               target="_blank"
               rel="noopener noreferrer"
             >
