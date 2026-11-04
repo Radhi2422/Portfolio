@@ -57,6 +57,7 @@ const experiences = [
     title: "🎓 College Projects",
     duration: "Learning Foundation",
     color: "#f97316",
+    
     description:
       "Built academic and personal projects that established my programming fundamentals and sparked my interest in software engineering.",
     highlights: [
@@ -68,6 +69,17 @@ const experiences = [
       "Team Projects",
       "Problem Solving",
       "Software Engineering Fundamentals",
+      // "In College I have done coding and built few projects that I need to show
+      "Coding account",
+      "1) HackerRank: https://www.hackerrank.com/profile/radheyy2404",
+      "Accomplishments: https://www.hackerrank.com/certificates/fae2141a90bf",
+      "https://www.hackerrank.com/certificates/f25097e5053d",
+      "2) GFG: https://www.geeksforgeeks.org/profile/radheyy2404",
+      "Solved 250+ questions, higest streak of 150+ days",
+      "3) Leetcode: https://leetcode.com/u/rrasa/",
+      "Solved 250+ questions",
+      // "Projects Links",
+      // "Proj1",
     ],
   },
 ];
