@@ -24,9 +24,11 @@ export const ContactPage = () => {
           </h1>
 
           <p>
-            Whether you have an exciting project, freelance opportunity,
-            internship, or just want to say hello, my inbox is always open.
-            Feel free to reach out anytime.
+            A builder, not just a monitor: someone who enjoys creating pipelines and integrations, not only watching data quality.
+            Someone who can independently deliver straightforward integrations and features, with guidance available on more complex problems.
+            A proactive problem-solver who digs into data issues until the root cause is clear.
+            Someone who treats data accuracy, reliability and security as non-negotiable.
+            A collaborative teammate who takes ownership, communicates well across business and technical teams, and is eager to grow in data-intensive engineering.
           </p>
 
           <div className="contact-details">
